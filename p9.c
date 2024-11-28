@@ -5,4 +5,5 @@ void main()
 	printf("hello world");
 	printf("have a nice day");
 	printf("good bye to every one");
+	hi hello
 }
