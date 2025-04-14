@@ -27,4 +27,4 @@ jobs:
         run: terraform init
 
       - name: Terraform Import Resource Group
-        run: terraform import azurerm_resource_group.myrg-2 /subscriptions/${{ secrets.AZURE_SUBSCRIPTION_ID }}/resourceGroups/myrg-1
+        run: terraform import azurerm_resource_group.rg/subscriptions/${{ secrets.AZURE_SUBSCRIPTION_ID }}/resourceGroups/myrg-1
