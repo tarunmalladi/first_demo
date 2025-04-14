@@ -8,7 +8,7 @@ variable "resource_group_location" {
   type        = string
 }
 
-variable "vnet_name" {
+/*variable "vnet_name" {
   description = "The name of the virtual network"
   type        = string
 }
@@ -31,7 +31,7 @@ variable "subnet_address_prefixes" {
 variable "nsg_name" {
   description = "The name of the network security group"
   type        = string
-}
+}*/
 
 variable "subscription_id" {
   description = "Azure subscription ID"
