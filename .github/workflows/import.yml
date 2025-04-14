@@ -27,7 +27,4 @@ jobs:
         run: terraform init
 
       - name: Terraform Import Resource Group
-        run: terraform import azurerm_resource_group.rg /subscriptions/${{ secrets.AZURE_SUBSCRIPTION_ID }}/resourceGroups/myrg-1
-
-      - name: Terraform Import Resource Group
         run: terraform import azurerm_virtual_network.vnet /subscriptions/07f136e5-d168-4950-a26f-e1a528a1a87c/resourceGroups/myrg-1/providers/Microsoft.Network/virtualNetworks/myVNet
